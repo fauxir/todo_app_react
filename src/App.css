@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(to bottom right, #AF68EA , #6462E7);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 2rem;
+}
+
+.main-container{
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px #483657;
+}
+
+.input-containers{
+  display: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+}
+
+.submit-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.activity{
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.activity-label-container{
+  position: relative;
+
+}
+
+.activity-input{
+  width: 13rem;
+  margin-top: 0.5rem;
+}
+
+.done-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.description{
+  text-align: center;
+}
